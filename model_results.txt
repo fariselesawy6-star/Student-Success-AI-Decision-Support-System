@@ -1,0 +1,17 @@
+Test accuracy: 0.7605
+
+Classification report:
+              precision    recall  f1-score   support
+
+     Dropout       0.84      0.71      0.77       284
+    Enrolled       0.49      0.57      0.53       159
+    Graduate       0.83      0.86      0.84       442
+
+    accuracy                           0.76       885
+   macro avg       0.72      0.71      0.71       885
+weighted avg       0.77      0.76      0.76       885
+
+Confusion matrix (labels=['Dropout', 'Enrolled', 'Graduate']):
+[[203  45  36]
+ [ 27  91  41]
+ [ 13  50 379]]
